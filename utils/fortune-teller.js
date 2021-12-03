@@ -6,8 +6,8 @@ function selectRandomFortune() {
   return responses[index];
 }
 
-function welcome() {
-  const message = "Provide me a question and I'll give you an answer...";
+function welcome(name) {
+  const message = `${name}, Provide me a question and I'll give you an answer...`;
   return Promise.resolve(message);
 }
 
